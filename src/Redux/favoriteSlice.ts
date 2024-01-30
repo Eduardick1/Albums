@@ -10,7 +10,7 @@ export const favoriteSlice = createSlice({
   reducers: {
     toggleFavorite: (state, action: PayloadAction<IPhoto>) => {
       if (state.find((photo) => photo.id === action.payload.id))
-        state = state.filter((photo) => photo.id !== action.payload.id);
+        return state.filter((photo) => photo.id !== action.payload.id);
       else state.push(action.payload);
     },
   },
