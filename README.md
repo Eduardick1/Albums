@@ -1,4 +1,4 @@
-# ToDo WebApp
+# 'Tree'-Gallery WebApp
 
 Collection of Photos
 
